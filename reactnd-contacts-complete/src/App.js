@@ -10,7 +10,6 @@ class App extends Component {
   }
   componentDidMount() {
     ContactsAPI.getAll().then((contacts) => {
-      console.log(contacts)
       this.setState({ contacts })
     })
   }

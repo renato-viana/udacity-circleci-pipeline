@@ -1,1 +1,1 @@
-aws s3 cp --recursive --acl public-read ./build s3://myudacityfront/
+aws s3 cp --profile udacity --recursive --acl public-read ./build s3://myudacityfront/
